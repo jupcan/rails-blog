@@ -1,9 +1,8 @@
 # rails-blog
 [![uclm](https://img.shields.io/badge/personal-project-red.svg?&longCache=true&colorA=27a79a&colorB=555555&style=for-the-badge)](http://www.juanperea.me)  
-simple blog in rails+bootstrap  
+simple blog in rails+bootstrap+devise authentication  
 some screenshots running the web app 
-singup  
-![singup](screenshots/singup.jpg) 
+
 login  
 ![login](screenshots/login.jpg)  
 blog index
