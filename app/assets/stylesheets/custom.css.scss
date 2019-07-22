@@ -1,0 +1,277 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "bourbon";
+#logo {
+ float: left;
+ font-size: 1.7em;
+ color: #19aa8d;
+ text-transform: uppercase;
+ letter-spacing: -1px;
+ font-weight: bold;
+}
+.navbar {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+#logo:hover {
+ color: #a1a09f;
+ text-decoration: none;
+}
+.article-actions {
+ border-top: 1px solid #eaeaea;
+ padding-top: 5px;
+}
+.article-title {
+ color: #19aa8d;
+ font-weight: bold;
+ font-size: 1.5em;
+}
+.article-body {
+ color: #000000;
+ border-top: 1px solid #eaeaea;
+ padding-top: 15px;
+}
+.article-meta-details {
+ color: #000000;
+ border-top: 1px solid #eaeaea;
+ margin-top: 15px;
+}
+.description {
+ margin-top: 0;
+}
+.listing {
+ list-style: none;
+ padding-left: 0;
+}
+
+.wrapper {	
+	margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);  
+
+  .form-signin-heading,
+	.checkbox {
+	  margin-bottom: 30px;
+	}
+
+	.checkbox {
+	  font-weight: normal;
+	  padding: 0px 20px 0px;
+	}
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+		@include box-sizing(border-box);
+
+		&:focus {
+		  z-index: 2;
+		}
+	}
+
+	input[type="text"] {
+	  margin-bottom: -1px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
+}
+
+body {
+	background: #19aa8d;
+	font-family: 'Roboto', sans-serif;
+}
+.form-control, .form-control:focus, .input-group-addon {
+	border-color: #e1e1e1;
+}
+.form-control, .btn {        
+	border-radius: 0px;
+}
+.signup-form {
+	width: 390px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+
+.create {
+	width: 900px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+
+.create form {
+	color: #999;
+	border-radius: 0px;
+	margin-bottom: 15px;
+	background: #fff;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+
+.create h2 {
+	color: #333;
+	font-weight: bold;
+	margin-top: 0;
+}
+.create hr {
+	margin: 0 -30px 20px;
+}
+.create .form-group {
+	margin-bottom: 20px;
+}
+.create label {
+	font-weight: normal;
+	font-size: 13px;
+}
+.create .form-control {
+	min-height: 38px;
+	box-shadow: none !important;
+}	
+.create .input-group-addon {
+	max-width: 42px;
+	text-align: center;
+}
+.create input[type="checkbox"] {
+	margin-top: 2px;
+}   
+
+.create input[type="password"] {
+	font:small-caption;
+	font-size: 16px;
+}   
+
+.create .btn{        
+	font-size: 16px;
+	font-weight: bold;
+	background: #19aa8d;
+	border: none;
+	min-width: 140px;
+}
+.create .btn:hover, .signup-form .btn:focus {
+	background: #179b81;
+	outline: none;
+}
+.create a {
+	color: #fff;	
+	text-decoration: underline;
+}
+.create a:hover {
+	text-decoration: none;
+}
+.create form a {
+	color: #19aa8d;
+	text-decoration: none;
+}	
+.create form a:hover {
+	text-decoration: underline;
+}
+.create .fa {
+	font-size: 21px;
+}
+.create .fa-paper-plane {
+	font-size: 18px;
+}
+.create .fa-check {
+	color: #fff;
+	left: 17px;
+	top: 18px;
+	font-size: 7px;
+	position: absolute;
+}
+
+.signup-form form {
+	color: #999;
+	border-radius: 0px;
+	margin-bottom: 15px;
+	background: #fff;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.signup-form h2 {
+	color: #333;
+	font-weight: bold;
+	margin-top: 0;
+}
+.signup-form hr {
+	margin: 0 -30px 20px;
+}
+.signup-form .form-group {
+	margin-bottom: 20px;
+}
+.signup-form label {
+	font-weight: normal;
+	font-size: 13px;
+}
+.signup-form .form-control {
+	min-height: 38px;
+	box-shadow: none !important;
+}	
+.signup-form .input-group-addon {
+	max-width: 42px;
+	text-align: center;
+}
+.signup-form input[type="checkbox"] {
+	margin-top: 2px;
+}   
+
+.signup-form input[type="password"] {
+	font:small-caption;
+	font-size: 16px;
+}   
+
+.signup-form .btn{        
+	font-size: 16px;
+	font-weight: bold;
+	background: #19aa8d;
+	border: none;
+	min-width: 140px;
+}
+.signup-form .btn:hover, .signup-form .btn:focus {
+	background: #179b81;
+	outline: none;
+}
+.signup-form a {
+	color: #fff;	
+	text-decoration: underline;
+}
+.signup-form a:hover {
+	text-decoration: none;
+}
+.signup-form form a {
+	color: #19aa8d;
+	text-decoration: none;
+}	
+.signup-form form a:hover {
+	text-decoration: underline;
+}
+.signup-form .fa {
+	font-size: 21px;
+}
+.signup-form .fa-paper-plane {
+	font-size: 18px;
+}
+.signup-form .fa-check {
+	color: #fff;
+	left: 17px;
+	top: 18px;
+	font-size: 7px;
+	position: absolute;
+}
+.alert {
+	margin: auto; display: table;
+ }
