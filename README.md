@@ -3,6 +3,8 @@
 simple blog in rails+bootstrap+devise authentication  
 some screenshots running the web app 
 
+singup  
+![singup](screenshots/singup.jpg) 
 login  
 ![login](screenshots/login.jpg)  
 blog index
