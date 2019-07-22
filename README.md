@@ -3,7 +3,7 @@
 simple blog in rails+bootstrap  
 some screenshots running the web app 
 singup  
-![index](screenshots/singup.jpg) 
+![singup](screenshots/singup.jpg) 
 login  
 ![login](screenshots/login.jpg)  
 blog index
@@ -11,6 +11,6 @@ blog index
 create post
 ![create](screenshots/new.jpg) 
 edit post
-![create](screenshots/edit.jpg) 
+![edit](screenshots/edit.jpg) 
 reset password
-![edit](screenshots/password.jpg)  
+![resetpwd](screenshots/password.jpg)  
