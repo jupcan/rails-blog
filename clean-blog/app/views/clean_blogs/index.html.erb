@@ -3,7 +3,7 @@
 <%= render 'shim' %>
 <%= render 'navigation' %>
 <%= render 'header' %>
-<% @articles.each do |article| %>
+<% @articles.reverse.each do |article| %>
 
 <!-- Main Content -->
 <div class="container">
@@ -15,7 +15,7 @@
                         <%= article.title %>
                     </h1>
                     <h3 class="post-subtitle">
-                        <%= truncate(article.description, length: 70, omission: '... (read more)') %>
+                        <%= truncate(article.description, length: 64, omission: '... (read more)') %>
                     </h3>
                 <% end %>
                 <p class="post-meta">posted by <a><%= link_to article.user.email.split('@').first, edit_user_registration_path%></a> on <%= article.created_at.strftime("%B %d %Y")%></p>
