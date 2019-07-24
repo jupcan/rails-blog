@@ -3,9 +3,9 @@
 simple blog in rails+bootstrap+devise authentication  
 some screenshots with an adapted template
 blog index  
-![index](screenshots/template-index.jpg)  
+![index](screenshots/template-index.png)  
 example posts with comments  
-![post](screenshots/template-post.jpg) 
+![post](screenshots/template-post.png) 
 some first version design screenshots
 singup  
 ![singup](screenshots/singup.jpg) 
