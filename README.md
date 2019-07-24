@@ -12,4 +12,4 @@ singup
 login  
 ![login](screenshots/login.jpg)  
 reset password
-![resetpwd](screenshots/password.jpg)  
+![resetpwd](screenshots/password.jpg)   
