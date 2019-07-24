@@ -1,0 +1,36 @@
+<% if current_page?(root_path) %>
+    <header class="intro-header">
+    <div class="background-image">
+        <div class="oesia"><img src="/assets/clean_blog/oesia.png" height="80" width="140"></div>
+        <div class="tecnobit"><img src="/assets/clean_blog/tecnobit.png" height="90" width="250"></div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1>tbitblog</h1>
+                    <hr class="small">
+                    <span class="subheading">rails+bootstrap dev test blog theme</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+<% elsif current_page?(article_path) %>
+    <header class="intro-header">
+        <div class="background-image">
+            <div class="oesia"><img src="/assets/clean_blog/oesia.png" height="80" width="140"></div>
+            <div class="tecnobit"><img src="/assets/clean_blog/tecnobit.png" height="90" width="250"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <center><h1><%= @article.title %></h1></center>
+                        <center><span class="meta">posted by <a><%= link_to @article.user.email.split('@').first, edit_user_registration_path%></a> on <%= @article.created_at.strftime("%B %d %Y") %></span></center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<% end %>

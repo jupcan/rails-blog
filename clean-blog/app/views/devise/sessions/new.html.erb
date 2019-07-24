@@ -1,0 +1,31 @@
+<div class="signup-form">
+  <%= form_for(resource, as: resource_name, url: session_path(resource_name), html: {class: "form-signin"}) do |f| %>
+  <%= render "devise/shared/error_messages", resource: resource %>
+  <h2>login</h2>
+  <p>enter your credentials to access the app!</p>
+  <hr>
+  <div class="form-group">
+    <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-paper-plane"></i></span>
+      <%= f.email_field :email, autofocus: true, class: 'form-control', placeholder: 'email address' %><br>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+      <%= f.password_field :password, autofocus: true, class: 'form-control', placeholder: 'password' %>
+    </div>
+  </div>
+
+  <% if devise_mapping.rememberable? -%>
+  <label class="form-group">
+    <label class="checkbox-inline"><%= f.check_box :remember_me%> remember me</label>
+  </label>
+  <% end -%>
+  <div class="form-group">
+    <%=f.submit("login", {:class=>'btn btn-lg btn-primary btn-block'})%>
+  </div>
+  </form>
+  <div class="text-center">dont have an account yet? <a href="#"><%= render "devise/shared/links" %></a></div>
+  <% end %>
+</div>
