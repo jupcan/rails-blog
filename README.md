@@ -6,16 +6,10 @@ blog index
 ![index](screenshots/template-index.png)  
 example posts with comments  
 ![post](screenshots/template-post.png) 
-some first version design screenshots
+some first version design screenshots  
 singup  
 ![singup](screenshots/singup.jpg) 
 login  
 ![login](screenshots/login.jpg)  
-blog index
-![index](screenshots/index.jpg)  
-create post
-![create](screenshots/new.jpg) 
-edit post
-![edit](screenshots/edit.jpg) 
 reset password
 ![resetpwd](screenshots/password.jpg)  
